@@ -3,19 +3,18 @@ package calculatorTDD;
 public class Calculator {
 
     public Double add(Double a, Double b) {
-        return null;
+        return a + b;
     }
 
     public Double subtract(Double a, Double b) {
-        return null;
-
+        return a - b;
     }
 
     public Double pow(Double a, Double x) {
-        return null;
+        return Math.pow(a, x);
     }
 
     public Double sqrt(Double a) {
-        return null;
+        return Math.sqrt(a);
     }
 }
